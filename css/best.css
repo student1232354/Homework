@@ -1,0 +1,345 @@
+.best_way {
+    background-color: #231F20;
+    width: 1170px;
+    margin-left: 170px;
+    display: flex;
+}
+
+.blog_text {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 32px;
+    
+    margin-bottom: 23px;
+    text-align: center;
+    
+    color: #000;
+}
+
+.blog_descr {
+    font-family: 'Gilroy',sans-serif;
+    font-size: 18px;
+   
+    text-align: center;
+    margin-bottom: 74px;
+    color: #000000;
+}
+
+.blogs {
+    margin-top: 90px;
+}
+
+.dest_title {
+    margin-left: 78px;
+}
+
+.dest_name {
+    margin-top: 63px;
+    margin-bottom: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.best_descr {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 60px;
+    width: 492px;
+    color: #FFFFFF;
+}
+
+.best_link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.comments {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top:80px; 
+    margin-left: 140px;
+    margin-bottom: 80px;
+}
+
+.comments_1 {
+    width: 570px;
+    height: 290px;
+    margin-right: 40px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    padding-left: 30px;
+}
+
+.comments_2 {
+    width: 570px;
+    height: 290px;
+    padding-left: 30px;
+    transition: all 0.5s;
+}
+
+.comm_title {
+    width: 474px;
+    height: 70px;
+    font-family: 'Gilroy',sans-serif ;
+    font-size: 24px;
+    font-weight: 900;
+    
+}
+
+.comm_descr {
+    width: 474px;
+    height: 70px;
+    font-family: 'Robot', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.comm_subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    width: 70px;
+
+}
+
+.comments_2:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 992px) {
+    .blogs {
+        width: 992px;
+
+    }
+    .blog_title {
+        width: 992px;
+        margin-left: -50px;
+    }
+
+    .best_descr {
+        width: 300px;
+    }
+
+    .best_way {
+        display: block;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 250px;
+        padding-bottom: 50px;
+    }
+
+    .comments {
+        display: block;
+    }
+    
+    .comments_2 {
+        margin-top: 50px;
+    }
+    }
+    @media (max-width: 767px) {
+        .blogs {
+            width: 767px;
+    
+        }
+        .blog_title {
+            width: 767px;
+            margin-left: -50px;
+        }
+    
+        .best_descr {
+            width: 300px;
+        }
+    
+        .best_way {
+            display: block;
+            width: 400px;
+            align-items: center;
+            justify-content: center;
+            margin-left: 150px;
+            padding-bottom: 50px;
+        }
+    
+        .comments {
+            display: block;
+            margin-left: 80px;
+        }
+        
+        .comments_2 {
+            margin-top: 50px;
+        }
+        }
+
+@media (max-width: 390px) {
+    .blogs {
+        width: 470px;
+
+    }
+    .best_way {
+        display: block;
+        width: 400px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 50px;
+    }
+    .blog_title {
+        width: 350px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .dest_title {
+        width: 100px;
+    }
+    .dest_name {
+        width: 100px;
+    }
+    .best_descr {
+        width: 350px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .best_link {
+        width: 100px;
+    }
+    .blog_descr {
+        font-size: 12px;
+        width: 300px;
+    } 
+    .blog_text {
+        width: 300px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .comments {
+        display: block;
+        margin-left: 0;
+        width: 350px;
+    }
+
+    .comments_1 {
+        width: 350px;
+        margin-bottom: 50px;
+    }
+    .comments_2 {
+        
+        width: 350px;
+    }
+    .comm_title {
+        width: 300px;
+        height: 70px;
+        font-family: 'Gilroy',sans-serif ;
+        font-size: 18px;
+        font-weight: 900;
+        
+    }
+    
+    .comm_descr {
+        width: 300px;
+        height: 70px;
+        font-family: 'Robot', sans-serif;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+    
+    .comm_subtitle {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        cursor: pointer;
+        width: 70px;
+    
+    }
+    }
+    @media (max-width: 480px) {
+        .blogs {
+            width: 480px;
+    
+        }
+        .best_way {
+            display: block;
+            width: 400px;
+            margin-left: 40px;
+            margin-right: 0;
+            padding-bottom: 50px;
+        }
+        .blog_title {
+            width: 350px;
+            text-align: center;
+            margin-left: 50px;
+        }
+    
+        .dest_title {
+            width: 100px;
+        }
+        .dest_name {
+            width: 100px;
+        }
+        .best_descr {
+            width: 350px;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    
+        .best_link {
+            width: 100px;
+        }
+        .blog_descr {
+            font-size: 12px;
+            width: 300px;
+        } 
+        .blog_text {
+            width: 300px;
+            font-size: 16px;
+            text-align: center;
+        }
+        .comments {
+            display: block;
+            margin-left: 0;
+            width: 350px;
+        }
+    
+        .comments_1 {
+            width: 350px;
+            margin-bottom: 50px;
+            margin-left:  45px; 
+        }
+        .comments_2 {
+            margin-left:  45px; 
+            width: 350px;
+        }
+        .comm_title {
+            width: 300px;
+            height: 70px;
+            font-family: 'Gilroy',sans-serif ;
+            font-size: 18px;
+            font-weight: 900;
+            
+        }
+        
+        .comm_descr {
+            width: 300px;
+            height: 70px;
+            font-family: 'Robot', sans-serif;
+            font-size: 14px;
+            margin-top: 20px;
+            margin-bottom: 16px;
+        }
+        
+        .comm_subtitle {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            cursor: pointer;
+            width: 70px;
+        
+        }
+        }
+  

@@ -1,0 +1,157 @@
+.footer {
+    background-color: #FAFAFA;
+    width: 1510px;
+    height: 410px;
+    
+}
+
+.footer_logo {
+    margin-left: 150px;
+    padding-left: 200px;
+    display: flex;
+    width: 1000px;
+    height: 70px;
+    padding-top: 115px;
+   
+    border-bottom: 1px solid #000;
+    margin-bottom: 55px;
+    
+}
+.footer_home {
+    display: flex;
+    margin-right: 60px;
+}
+
+.footer_blog {
+    display: flex;
+    margin-left: 140px;
+}
+
+.footer_us {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 80px;
+}
+
+.footer_links {
+    margin-left: 576px;
+}
+
+.footer_link {
+    margin-right: 25px;
+}
+
+.footer_foot {
+    text-align: center;
+    margin-top: 75px;
+    display: flex;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 14px;
+    margin-left: 618px;
+}
+
+.footer_1 {
+    margin-right: 15px;
+    
+}
+
+@media (max-width: 992px) {
+    body {
+        width:992px;
+    } 
+   .footer {
+    width: 992px;
+   }
+
+   .footer_logo {
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    width: 400px;
+    height: 70px;
+    padding-top: 115px;
+   
+    border-bottom: 1px solid #000;
+    margin-bottom: 55px;
+    
+}
+.footer_links {
+    margin-left: 300px;
+}
+.footer_logo {
+    margin-left: 270px;
+    display: flex;
+    width: 400px;
+    height: 70px;
+    padding-top: 115px;
+   
+    border-bottom: 1px solid #000;
+    margin-bottom: 55px;
+    
+}
+.footer_foot {
+    text-align: center;
+    margin-top: 75px;
+    display: flex;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 14px;
+    margin-left: 340px;
+}
+.footer_us {
+    margin-right: 40px;
+}
+.footer_home {
+    margin-right: 30px;
+}
+
+.footer_blog {
+    margin-left: 40px;
+}
+
+  }
+
+
+  @media (max-width: 767px) {
+    .footer {
+        width: 767px;
+
+    }
+    .footer_logo {
+        margin-left: 170px;
+    }
+    .footer_links {
+        margin-left: 200px;
+    }
+    .footer_foot{
+        margin-left: 240px;
+    }
+  }
+
+
+   @media (max-width: 480px) {
+    .footer {
+        width: 480px;
+
+    }
+    .footer_logo {
+        width: 300px;
+        margin-left: 40px;
+    }
+    .footer_links {
+        margin-left: 40px;
+    }
+    .footer_foot{
+        margin-left: 70px;
+    }
+
+    .footer_home {
+        margin-left: 20px;
+        display: block;
+
+    }
+    .footer_blog {
+
+        display: block;
+    }
+  }

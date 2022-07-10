@@ -1,0 +1,167 @@
+
+.ready {
+    background-color: #F7941E;
+    display: flex;
+    width: 1510px;
+}
+
+.ready_text {
+    padding-left: 231px;
+    padding-top: 81px;
+    padding-bottom: 70px;
+    padding-right: 229px;
+}
+
+.ready_title {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.ready_subtitle {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.buttons_red {
+    padding-top: 96px;
+    padding-bottom: 94px;
+    padding-right: 235px;
+    display: flex;
+    
+}
+
+.btn_red {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 18px;
+    
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.btn_ore {
+    width: 200px;
+    height: 50px;
+    background-color: #F7941E;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 18px;
+    
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color:#000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.btn_ore:hover {
+    background-color: #000;
+    color: #F7941E;
+}
+
+@media (max-width: 992px) {
+    .ready {
+        width: 992px;
+        display: block;
+    }
+    
+    .ready_text {
+        padding-bottom: 0px;
+    }
+
+    .buttons_red {
+        padding-left: 200px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .ready {
+        width: 767px;
+        display: block;
+    }
+    
+    .ready_text {
+        padding-bottom: 0px;
+    }
+
+    .buttons_red {
+        padding-left: 200px;
+    }
+  }
+
+  @media (max-width: 480px) {
+  
+
+    .ready {
+        width: 480px;
+        display: block;
+    }
+    
+    .ready_text {
+        padding-bottom: 0px;
+        width: 350px;
+        padding-left: 30px;
+    }
+
+    .buttons_red {
+        padding-left: 30px;
+        font-size: 16px;
+    }
+    .btn_ore {
+        font-size: 16px;
+    }
+    .btn_red {
+        font-size: 16px;
+    }
+    
+  }
+  @media (max-width: 390px) {
+    body {
+        width: 390px;
+    }
+
+    .ready {
+        width: 390px;
+        display: block;
+    }
+    
+    .gifts_text {
+        padding-left: 0;
+    }
+
+    .buttons_red {
+        padding-left: 30px;
+        font-size: 16px;
+    }
+    .btn_ore {
+        font-size: 16px;
+    }
+    .btn_red {
+        font-size: 16px;
+    }
+    .Media {
+        width: 390px;
+    }
+    .Media_0 {
+        width: 390px;
+    }
+    .catalog-down_items {
+        width: 390px;
+    }
+    .catalog_items {
+        width: 390px;
+        text-align: left;
+    }
+    .btn_catalog {
+        margin-left: 40px;
+    }
+  }
